@@ -1,0 +1,1 @@
+<view class="list"><music-head vue-id="2e637200-1" iconShow="{{true}}" title="歌单" bind:__l="__l"></music-head></view>
