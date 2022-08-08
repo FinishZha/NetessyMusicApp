@@ -25,13 +25,17 @@ export const topList = function() {
 }
 
 
+/**
+ * @param {Object} id
+ * @return {Object} 
+ */
 export const getMusic = function(id){
 	return new Promise(function(resolve, reject){
 		uni.request({
 			url:`${BASE_URL}/playlist/detail?id=${id}`,
 			method:'GET',
 			success(res){
-				resolve(res.data.privileges)
+				resolve(res.data)
 			}
 			
 		})

@@ -33,4 +33,17 @@
 .container scroll-view {
   height: 100%;
 }
+.list .fixbg {
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+  position: fixed;
+  top: 0;
+  background-size: cover;
+  background-position: 0 center;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 

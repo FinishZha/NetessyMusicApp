@@ -23,4 +23,17 @@
 			height: 100%;
 		}
 	}
+	.list{
+		.fixbg{
+			height: 100%;
+			width: 100%;
+			background-color: blueviolet;
+			position: fixed;
+			top: 0;
+			background-size: cover;
+			background-position: 0 center;
+			filter: blur(10px);
+			transform: scale(1.1);
+		}
+	}
 </style>

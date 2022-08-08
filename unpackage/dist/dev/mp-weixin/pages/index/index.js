@@ -106,7 +106,7 @@ var components
 try {
   components = {
     musicHead: function() {
-      return __webpack_require__.e(/*! import() | components/musicHead/musicHead */ "components/musicHead/musicHead").then(__webpack_require__.bind(null, /*! @/components/musicHead/musicHead.vue */ 35))
+      return __webpack_require__.e(/*! import() | components/musicHead/musicHead */ "components/musicHead/musicHead").then(__webpack_require__.bind(null, /*! @/components/musicHead/musicHead.vue */ 38))
     }
   }
 } catch (e) {
@@ -214,7 +214,7 @@ var _index = __webpack_require__(/*! @/api/index.js */ 19); //
 //
 //
 //
-var musicHead = function musicHead() {__webpack_require__.e(/*! require.ensure | components/musicHead/musicHead */ "components/musicHead/musicHead").then((function () {return resolve(__webpack_require__(/*! @/components/musicHead/musicHead.vue */ 35));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { topList: [] };}, components: { musicHead: musicHead }, onLoad: function onLoad() {var _this = this;(0, _index.topList)().then(function (res) {_this.topList = res;});}, methods: { handleToPage: function handleToPage(url, pramas) {uni.navigateTo({ url: pramas != undefined || pramas != null ? "".concat(url, "?").concat(pramas) : url });} } };exports.default = _default;
+var musicHead = function musicHead() {__webpack_require__.e(/*! require.ensure | components/musicHead/musicHead */ "components/musicHead/musicHead").then((function () {return resolve(__webpack_require__(/*! @/components/musicHead/musicHead.vue */ 38));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default = { data: function data() {return { topList: [] };}, components: { musicHead: musicHead }, onLoad: function onLoad() {var _this = this;(0, _index.topList)().then(function (res) {_this.topList = res;});}, methods: { handleToPage: function handleToPage(url, pramas) {uni.navigateTo({ url: pramas != undefined || pramas != null ? "".concat(url, "?").concat(pramas) : url });} } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
